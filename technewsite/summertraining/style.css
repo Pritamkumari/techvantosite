@@ -1,0 +1,56 @@
+body,html {
+    height: 100%;
+    margin: 0; 
+    box-sizing: border-box;
+}  
+
+/* summerTrainingpage */
+
+.trainingpage { 
+    display: flex;
+    flex-flow: row;
+    background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.6)), 
+    url('../Images/Rectangle 123.png'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    
+} 
+
+.summerdescription {
+    margin-left: 150px; 
+    margin-top: 530px; 
+    color: #ffffff;  
+} 
+
+.destextview {
+    width: 450px; 
+    font-size: 15px;
+} 
+
+.summertextdes img {
+    height: 45px; 
+    width: 45px;  
+    margin-top: 10px;
+    margin-left: 33px; 
+}   
+
+/* dashboard section*/
+
+.dashboardpage {  
+    position: relative;
+    padding-top: 30px;
+    /* display: flex;
+    flex-flow: column; */
+}  
+
+.image {
+    height: 100px;
+    width: auto;
+    background-color: aqua;
+}  
+
+.dashboard img {
+    height: 330px;
+    width: 1040px;
+}
