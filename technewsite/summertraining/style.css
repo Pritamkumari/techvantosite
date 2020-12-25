@@ -4,7 +4,7 @@ body,html {
     box-sizing: border-box;
 }  
 
-/* summerTrainingpage */
+/* summerTrainingpage css */
 
 .trainingpage { 
     display: flex;
@@ -35,13 +35,11 @@ body,html {
     margin-left: 33px; 
 }   
 
-/* dashboard section*/
+/* dashboard section css*/
 
 .dashboardpage {  
     position: relative;
     padding-top: 30px;
-    /* display: flex;
-    flex-flow: column; */
 }  
 
 .image {
@@ -51,6 +49,253 @@ body,html {
 }  
 
 .dashboard img {
-    height: 330px;
-    width: 1040px;
+    height: 400px;
+    width: 900px;
+}   
+
+.dashboardtext {
+    margin-top: 500px; 
+    height: 70px;
+    width: 400px; 
+    margin-left: 650px; 
+    margin-right: 0px;
+    position: absolute; 
+    bottom: 100px; 
+    left: -80px; 
+}
+
+/* benifitPage css */
+.benifitPage { 
+    text-align: center;
+    padding-top: 70px;
+} 
+
+.benifitPage img {
+    height: 43px;
+    width: 43px; 
+} 
+.underlineview {
+    height: 2px; 
+    width: 130px;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff0066;
+  }   
+
+  .textcolor {
+    color:  #ff0066;
+  }
+
+.topspacing {
+        padding-top: 40px;
+  } 
+
+  /* courseavailabiliytpage css */ 
+
+  .courseavailabiliytpage {
+        padding-top: 100px;
+  }  
+
+  .cunderlineview {
+    height: 2px; 
+    width: 260px;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff0066;
+  } 
+
+/* .subdiv  
+{
+    height: 200px;
+    width: 200px; 
+    background-color: blue;
+}    */
+
+
+/* .cardview { 
+    display: flex;   
+    line-height: 100px; 
+    text-align: center;
+    color: aliceblue;
+    flex-flow: column; 
+    background-image: linear-gradient(to bottom, rgba(19, 19, 20, 0.92), rgba(15, 13, 15, 0.93)), 
+    url('Images/traininging.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid black;
+    border-radius: 10px;  
+} 
+
+.cardview:hover {  
+  background: transparent;
+  background-color: #ff0066; 
+  -webkit-transition: background-color linear 1s;
+  -moz-transition: background-color linear 1s;
+  -o-transition: background-color linear 1s;
+  transition: background-color linear 1s;
+}  
+
+.cardtext {
+  display: block;
+}
+
+.hovertext {
+  display: none;
+  padding-bottom: 50px;
+} 
+
+.cardview:hover > .cardtext {
+  display: none;
+}  
+
+.cardview:hover > i {
+  display: none;
+}
+
+.cardview:hover > .hovertext {
+  display: block;
+} 
+
+.cardview p { 
+  margin: 10px;
+  color: white;
+  line-height: 20px; 
+  flex: 1 1 auto;
+} 
+
+.cardview i { 
+    height: 20px;
+    margin: 10px;
+    color: #ff0066;
+    flex: 0 0 auto; 
+    font-size: 20px;
+    text-align:center; 
+}  
+
+.knowmorediv {
+  border-radius: 35px;
+  background: black;
+  width: 110px; 
+  text-align:center;  
+  display: none; 
+  color: #f1f1f1;
+  height: 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+
+} 
+
+.cardview:hover + .knowmorediv { 
+  display: block; 
+  top: 10px; 
+} */  
+
+
+/* assistancepage css */  
+
+.assistancepage { 
+    padding-top: 50px; 
+    background-color: #EEF4F6;
+
+} 
+
+.assistancepage img {
+    height: 249px;
+    width: 243px;
+}  
+
+.textsection { 
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.btn {
+    background-color: #ff0066;
+    color: white;
+    padding: 10px;
+    font-size: 16.5px;
+    border: none;  
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+  }
+  
+  input {   
+  border: 1px solid #919191;
+  border-radius: 50px 0px 0px 50px;
+    width: 280px;
+    color: white;
+    padding: 10px;
+    font-size: 15px; 
+    margin-left: 4px; 
+  } 
+
+  .rightbtn { 
+    background-color: #358E49;
+    color: white;
+    border: none;  
+    border-radius: 5px; 
+    position: absolute; 
+    bottom: 20px;
+    left: 82.4%; 
+    display: block;
+  } 
+
+  .crossbtn { 
+    background-color: #D72700;
+    color: white;
+    border: none;  
+    border-radius: 5px; 
+    position: absolute; 
+    padding-left: 10px; 
+    padding-right: 55px;
+    bottom: -20px;
+    left: 82%; 
+    display: block;
+  }
+
+
+/* certificatepage css */  
+
+.certificatepage {
+    padding-top: 40px; 
+    text-align: center;
+}
+
+.certificateunderlineview {
+    height: 2px; 
+    width: 270px;  
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #ff0066;
+} 
+
+.certificatepage img {
+    padding-top: 40px;
+}  
+
+/* For MobileView */ 
+@media only screen and (max-width: 600px) {  
+
+    .dashboardtext { 
+        margin-right: 10px;  
+        left: -450px; 
+        bottom: 300px;   
+    }   
+
+ .textsection { 
+     padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+} 
+    .rightbtn { 
+        display: none;
+      } 
+    
+      .crossbtn { 
+        display: none;
+      } 
+
 }
