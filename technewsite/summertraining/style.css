@@ -33,7 +33,23 @@ body,html {
     width: 45px;  
     margin-top: 10px;
     margin-left: 33px; 
-}   
+}  
+
+.summertextdes .modediv{
+    padding-left: 500px; 
+    padding-top: 250px;
+}  
+
+.summertextdes .durationdiv{
+    padding-left: 500px; 
+    padding-top: 15px;
+} 
+
+.ptext {
+    font-size: 15px;
+}
+
+ 
 
 /* dashboard section css*/
 
@@ -62,6 +78,15 @@ body,html {
     position: absolute; 
     bottom: 100px; 
     left: -80px; 
+}  
+
+.dashtext {
+    margin-left: 55px; 
+    margin-right: 0px; 
+} 
+
+.paratext {
+    font-size: 15px;  
 }
 
 /* benifitPage css */
@@ -93,7 +118,8 @@ body,html {
   /* courseavailabiliytpage css */ 
 
   .courseavailabiliytpage {
-        padding-top: 100px;
+        padding-top: 100px; 
+        text-align: center;
   }  
 
   .cunderlineview {
@@ -102,75 +128,24 @@ body,html {
     margin-left: auto;
     margin-right: auto;
     background-color: #ff0066;
-  } 
+  }  
+  
+.subdiv img {
+    height: 53px;
+    width: 53px; 
+}
 
-/* .subdiv  
+.subdiv  
 {
-    height: 200px;
-    width: 200px; 
-    background-color: blue;
-}    */
-
-
-/* .cardview { 
-    display: flex;   
-    line-height: 100px; 
-    text-align: center;
-    color: aliceblue;
-    flex-flow: column; 
-    background-image: linear-gradient(to bottom, rgba(19, 19, 20, 0.92), rgba(15, 13, 15, 0.93)), 
-    url('Images/traininging.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0px solid black;
-    border-radius: 10px;  
-} 
-
-.cardview:hover {  
-  background: transparent;
-  background-color: #ff0066; 
-  -webkit-transition: background-color linear 1s;
-  -moz-transition: background-color linear 1s;
-  -o-transition: background-color linear 1s;
-  transition: background-color linear 1s;
+    padding: 30px;
+    background-color: #EEF4F6;
 }  
 
-.cardtext {
-  display: block;
-}
-
-.hovertext {
-  display: none;
-  padding-bottom: 50px;
-} 
-
-.cardview:hover > .cardtext {
-  display: none;
-}  
-
-.cardview:hover > i {
-  display: none;
-}
-
-.cardview:hover > .hovertext {
-  display: block;
-} 
-
-.cardview p { 
-  margin: 10px;
-  color: white;
-  line-height: 20px; 
-  flex: 1 1 auto;
-} 
-
-.cardview i { 
-    height: 20px;
-    margin: 10px;
-    color: #ff0066;
-    flex: 0 0 auto; 
-    font-size: 20px;
-    text-align:center; 
-}  
+.subdiv:hover {  
+    background: transparent; 
+    padding: 70px; 
+    background-color: #ff0066; 
+  }  
 
 .knowmorediv {
   border-radius: 35px;
@@ -187,16 +162,34 @@ body,html {
 
 } 
 
-.cardview:hover + .knowmorediv { 
+.subdiv:hover + .knowmorediv { 
   display: block; 
-  top: 10px; 
-} */  
+  bottom: 60px; 
+} 
+ 
+  .subdiv:hover > p {
+    display: none;
+  }  
+  
+  .subdiv:hover > img {
+    display: none;
+  } 
+
+ .coursetopspacing {
+     padding-top: 10px; 
+     padding-bottom: 0px;
+ }   
+
+.coursetopbottomspacing { 
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
 
 
 /* assistancepage css */  
 
 .assistancepage { 
-    padding-top: 50px; 
+    padding-top: 80px; 
     background-color: #EEF4F6;
 
 } 
@@ -279,11 +272,42 @@ body,html {
 /* For MobileView */ 
 @media only screen and (max-width: 600px) {  
 
+    .summertextdes .modediv{
+        padding-left: 0px; 
+        padding-top: 90px;
+    }  
+    
+    .summertextdes .durationdiv{
+        padding-left: 0px; 
+    }  
+    
+    .ptext {
+        font-size: 12px;
+    }
+
+    .destextview {
+        width: 300px; 
+        font-size: 13px;
+    } 
+
     .dashboardtext { 
         margin-right: 10px;  
         left: -450px; 
-        bottom: 300px;   
-    }   
+        bottom: 120px;   
+    }  
+    
+    .dashboard img {
+        height: 268px;
+        width: 385px;
+    } 
+
+    .dashtext {
+        margin-left: -30px; 
+    } 
+
+    .paratext {
+       font-size: 17px;
+    }
 
  .textsection { 
      padding-top: 30px;
