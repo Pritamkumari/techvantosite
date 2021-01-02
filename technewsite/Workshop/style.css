@@ -6,56 +6,58 @@ body,html {
 
 /* summerTrainingpage css */
 
-.workspage { 
+.workshopPage { 
     display: flex;
-    flex-flow: row;
+    flex-flow: row; 
+    position: relative; 
+    height: 542px;
     background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.6)), 
-    url('../Images/Rectangle 123.png'); 
+    url('../Images/Master-of-Business-Global-Management-and-Marketing\ 1.png'); 
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover; 
     
-}  
+}    
 
-/* .workspage {
-     position: absolute; 
-
-
-} */
-
-.workshopdescription {
+.workshoptextimgview  { 
     margin-left: 150px; 
-    color: #ffffff;   
+    color: #ffffff; 
+    position: absolute; 
+    bottom: -160px;   
+    z-index: 1;
+
 } 
 
 .workshoptextview {
-    width: 450px; 
-    font-size: 15px;
-} 
+    width: 450px;  
+    color: #111; 
+    font-size: 15px;  
+}  
+
+.workshoptext {
+    text-align: center;
+}
 
 .workshoptext img {
     height: 45px; 
-    width: 45px;  
-    margin-top: 10px;
-    margin-left: 33px; 
+    width: 45px;   
+    margin-top: 40px;
 }  
 
 .workshoptext .modediv{
-    padding-left: 250px; 
+    padding-left: 620px;  
+    position: absolute; 
+    bottom: -40px;
 }  
-
 
 .ptext {
     font-size: 15px;
 }
 
- 
-
 /* dashboard section css*/
 
 .dashboardpage {  
-    position: relative;
-    padding-top: 30px;
+    padding-top: 150px;
 }  
 
 .image {
@@ -92,7 +94,7 @@ body,html {
 /* benifitPage css */
 .benifitPage { 
     text-align: center;
-    padding-top: 70px;
+    padding-top: 100px;
 } 
 
 .benifitPage img {
@@ -186,23 +188,35 @@ body,html {
 }
 
 
-/* assistancepage css */  
+/* campuspage css */  
 
-.assistancepage { 
-    padding-top: 80px; 
-    background-color: #EEF4F6;
+.campuspage { 
+    padding-top: 80px;
 
 } 
 
-.assistancepage img {
-    height: 249px;
-    width: 243px;
+.campuspage img {
+    height: 335px;
+    width: 384px; 
+    position: absolute;
+    bottom: -30px;
 }  
 
 .textsection { 
-    padding-top: 0px;
+    padding-top: 170px;
     padding-left: 0px;
     padding-bottom: 0px;
+} 
+
+.inputbtnview {   
+    height: 200px; 
+    background: #EEF4F6;
+    padding-left: 30px; 
+}  
+
+.inputbtnview p {  
+    padding-top: 35px; 
+    padding-left: 90px;  
 }
 
 .btn {
@@ -218,11 +232,11 @@ body,html {
   input {   
   border: 1px solid #919191;
   border-radius: 50px 0px 0px 50px;
-    width: 280px;
+    width: 724px;
     color: white;
     padding: 10px;
     font-size: 15px; 
-    margin-left: 4px; 
+    margin-left: 90px; 
   } 
 
 
@@ -249,47 +263,31 @@ body,html {
 /* For MobileView */ 
 @media only screen and (max-width: 600px) {  
 
-    /* .summertextdes .modediv{
-        padding-left: 0px; 
-        padding-top: 90px;
+    .workshoptext .modediv{
+        padding-left: 395px;  
     }  
-    
-    .summertextdes .durationdiv{
-        padding-left: 0px; 
-    }   */
     
     .ptext {
         font-size: 12px;
-    }
-
+    } 
+    
+    .workshoptextimgview  { 
+        margin-left: 10px; 
+    
+    } 
+    
     .workshoptextview {
-        width: 300px; 
-        font-size: 13px;
+        width: 400px;  
     } 
 
-    .dashboardtext { 
-        margin-right: 10px;  
-        left: -450px; 
-        bottom: 120px;   
+    .campuspage img {
+        height: 335px;
+        width: 384px; 
+        position: absolute;
+        bottom: -60px;
     }  
     
-    .dashboard img {
-        height: 268px;
-        width: 385px;
-    } 
-
-    .dashtext {
-        margin-left: -30px; 
-    } 
-
-    .paratext {
-       font-size: 17px;
+    .textsection { 
+        padding-top: 30px;
     }
-
- .textsection { 
-     padding-top: 30px;
-    padding-left: 90px;
-    padding-bottom: 40px;
-}
-
 }
