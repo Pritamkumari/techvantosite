@@ -367,10 +367,13 @@ img {
 } 
 
 .coursedetailsintro {
+  color: gray;  
+  font-size: 15px; 
+  height: 300px;
+  width: 600px;  
   text-align: center;
-  color: gray; 
-  padding-top: 10px;
-  text-align: center;
+  margin-left: 350px;
+  padding-top: 20px;
 } 
 
 .coursedetails { 
@@ -517,7 +520,8 @@ img {
 } 
 
 .courseviewbtn { 
-  text-align: center; 
+  text-align: center;  
+  padding-top: 60px; 
 }  
 
 .viewbtn {
@@ -608,11 +612,13 @@ img {
 }
 
 .clientspage { 
-      height: 700px;
+      height: 700px; 
+      text-align: center;
       padding-top: 50px;  
 }  
 
-.ctopspacing {
+.ctopspacing { 
+  padding-bottom: 0px;
   padding-top: 50px;
 } 
 
@@ -627,13 +633,14 @@ img {
 } 
 
  .footerview { 
-   padding-top: 10px;
+  padding-top: 10px;
   position: relative;
 }   
 
 .summaryview {
   display: flex;
-  flex-flow: row; 
+  flex-flow: row;  
+  /* display: block; */
   background-color: #111;
 }  
 
@@ -646,7 +653,8 @@ img {
   color: #ff0066;
 } 
 
-.footercontact {  
+.footercontact { 
+  display: block;   
   position: absolute;
   top: -12px; 
 }
@@ -662,11 +670,6 @@ img {
   
 }  
 
-/* .contactlist a { 
-  color: white;  
-  text-decoration: none;
-} */
-
 .footertext { 
   display: flex;
   flex-flow: row;
@@ -677,10 +680,46 @@ img {
   height: 2px; 
   width: 150px; 
   background-color: #ff0066; 
+}  
+
+.privacy {
+  margin-left: 400px; 
+  color:white; 
+  font-size: 14px;
+}  
+
+.termandtech {
+  margin-left: 20px; 
+  color: white; 
+  font-size: 14px;
 } 
 
+.resfooter {   
+  padding-top: 20px;
+  text-align: center; 
+  color: #f1f1f1;  
+  display: none; 
+  background-color: #111;
+}  
+
+.contact {
+  padding-bottom: 30px;
+}
+
+.texticon {
+  color: #ff0066;
+}
+
 @media only screen and (max-width: 600px) {
-        /* For MobileView */ 
+        /* For MobileView */  
+        .primaryheader {  
+          display: none;
+        }  
+
+ .coursedetailsintro {
+   width: 400px; 
+   margin-left: 100px;
+  }
 
  .description {  
           padding-left: 0px;
@@ -784,8 +823,6 @@ img {
   {
     float: none;
   }  
-
-
  .dropdownlink.responsive ul ul
 {
   display:none;
@@ -795,8 +832,6 @@ img {
 {
   float:none;
 }  
-
-
  .dropdownlink.responsive ul li:hover > ul
 {
   display:block
@@ -804,45 +839,75 @@ img {
 
 .triangle-down{ 
  top: 0%;
-  
 }
 
-  .cardview p { 
-     flex: 1 1 auto; 
-    text-align: left;
-          
+.cardview p { 
+  flex: 1 1 auto; 
+  text-align: left;
+        
     } 
 
-      .spaceview {
+.spaceview {
           display: none;
       }  
       
-      .righttext2 { 
+.righttext2 { 
         margin-bottom: 50px; 
         margin-right: 400px; 
         top: 60px;
-      } 
+      }   
 
-      .righttext3 { 
+.righttext3 { 
         margin-bottom: 50px; 
         margin-right: 400px; 
       } 
 
-      .righttext4 { 
+.righttext4 { 
         margin-bottom: 50px; 
         margin-right: 300px; 
       } 
 
-      .lefttext2 { 
+.lefttext2 { 
         margin-left: 450px;
         bottom: -60px; 
       } 
-      .lefttext3 { 
+.lefttext3 { 
         margin-left: 400px; 
        top: 160px;  
-      } 
-      .lefttext4 { 
+      }  
+.lefttext4 { 
         margin-left: 350px; 
-   
+      }  
+      
+.courseviewbtn {   
+        padding-top: 5px; 
+      }
+.footerview { 
+        padding-top: 40px;
+      } 
+ .summaryview { 
+        display: none;
+      }  
+ .privacy {
+    margin-left: 100px; 
+  }   
+  .termandtech {
+    margin-left: 5px; 
+  }  
+  .footertext { 
+    position: absolute;
+    bottom: -1400px;
+    width: 100%;
+  }
+
+.footercontact 
+      {
+        display: none;
+      }
+.resfooter {   
+  position: absolute;
+  bottom: -1400px;
+  width: 100%; 
+  display: block;
       }
 }

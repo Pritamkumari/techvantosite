@@ -4,7 +4,7 @@ body,html {
     box-sizing: border-box;
 }  
 
-/* summerTrainingpage css */
+/* workshopPage css */
 
 .workshopPage { 
     display: flex;
@@ -54,12 +54,12 @@ body,html {
     font-size: 15px;
 }
 
-/* dashboard section css*/
+/* upcomingWorkshopPage section css*/
 
-.dashboardpage {  
+ .upcomingWorkshopPage {  
     padding-top: 150px;
 }  
-
+/*
 .image {
     height: 100px;
     width: auto;
@@ -89,7 +89,7 @@ body,html {
 
 .paratext {
     font-size: 15px;  
-}
+} */
 
 /* benifitPage css */
 .benifitPage { 
@@ -117,75 +117,55 @@ body,html {
         padding-top: 40px;
   } 
 
-  /* courseavailabiliytpage css */ 
 
-  .courseavailabiliytpage {
-        padding-top: 100px; 
-        text-align: center;
+/* subjectPage css */ 
+
+.subjectPage { 
+    text-align: center;
+    padding-top: 100px; 
   }  
 
-  .cunderlineview {
-    height: 2px; 
-    width: 260px;  
+.subunderlineview 
+{
+    height: 2px;
+    width: 200px;  
     margin-left: auto;
     margin-right: auto;
     background-color: #ff0066;
-  }  
-  
-.subdiv img {
-    height: 53px;
-    width: 53px; 
-}
-
-.subdiv  
-{
-    padding: 30px;
-    background-color: #EEF4F6;
 }  
 
-.subdiv:hover {  
-    background: transparent; 
-    padding: 70px; 
-    background-color: #ff0066; 
-  }  
-
-.knowmorediv {
-  border-radius: 35px;
-  background: black;
-  width: 110px; 
-  text-align:center;  
-  display: none; 
-  color: #f1f1f1;
-  height: 30px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -25px;
-
+.subjectunderline {
+    height: 2px;
+    width: 600px;  
+    margin-top: 10px; 
+    margin-left: 250px;
+    background-color: #ff0066;
 } 
 
-.subdiv:hover + .knowmorediv { 
-  display: block; 
-  bottom: 60px; 
-} 
- 
-  .subdiv:hover > p {
-    display: none;
-  }  
+.subjectleftspace{
+    margin-left: 30px;
+}   
+
+.AvailableWorkshops {
+    border-radius: 35px;
+    background: black;
+    width: 110px; 
+    text-align:center;  
+    display: none; 
+    color: #f1f1f1;
+    height: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
   
-  .subdiv:hover > img {
-    display: none;
   } 
-
- .coursetopspacing {
-     padding-top: 10px; 
-     padding-bottom: 0px;
- }   
-
-.coursetopbottomspacing { 
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
+  
+  .AvailableWorkshops:hover { 
+    /* display: block; 
+    top: 10px;  */ 
+    background-color: #ff0066;
+  }
 
 
 /* campuspage css */  
@@ -280,7 +260,7 @@ body,html {
         width: 400px;  
     } 
 
-    .campuspage img {
+    /* .campuspage img {
         height: 335px;
         width: 384px; 
         position: absolute;
@@ -289,5 +269,5 @@ body,html {
     
     .textsection { 
         padding-top: 30px;
-    }
+    } */
 }
